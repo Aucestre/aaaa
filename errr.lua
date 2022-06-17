@@ -70,7 +70,7 @@ local Aiming = getgenv().Aiming
 
 -- // Create circle
 local circle = Drawingnew("Circle")
-circle.Transparency = 2
+circle.Transparency = 3
 circle.Thickness = 2
 circle.Color = Aiming.FOVColour
 circle.Filled = false
